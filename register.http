@@ -1,0 +1,15 @@
+POST  http://localhost:9254/users/
+Content-Type: application/json
+
+{
+    "username":"Ravi@018",
+    "name":"THOTA RAVI TEJA ",
+    "password":"Ravi@018",
+    "gender":"male",
+    "location":"1-33-1/521107,savaragudem(V),gannavaram(M),krishna(D)"
+}
+
+
+###
+
+GET http://localhost:9254/user/
