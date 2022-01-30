@@ -3,6 +3,7 @@ const { open } = require("sqlite");
 const path = require("path");
 const sqlite3 = require("sqlite3");
 const bcrypt = require("bcrypt");
+const cors = require("cors");
 const jwt = require("jsonwebtoken");
 //const format = require("date-fns/format");
 let db;
