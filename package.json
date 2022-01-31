@@ -2,7 +2,7 @@
   "name": "registrations",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "register.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon register.js"
@@ -16,7 +16,6 @@
     "date": "^1.0.2",
     "express": "^4.17.2",
     "jsonwebtoken": "^8.5.1",
-    "node": "^17.4.0",
     "sqlite": "^4.0.23",
     "sqlite3": "^5.0.2"
   },
