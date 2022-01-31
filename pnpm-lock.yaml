@@ -4,7 +4,6 @@ dependencies:
   date: 1.0.2
   express: 4.17.2
   jsonwebtoken: 8.5.1
-  node: 17.4.0
   sqlite: 4.0.23
   sqlite3: 5.0.2
 lockfileVersion: 5.2
@@ -922,10 +921,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==
-  /node-bin-setup/1.1.0:
-    dev: false
-    resolution:
-      integrity: sha512-pTeU6NgUrexiLNtd+AKwvg6cngHMvj5FZ5e2bbv2ogBSIc9yhkXSSaTScfSRZnwHIh5YFmYSYlemLWkiKD7rog==
   /node-fetch/2.6.7:
     dependencies:
       whatwg-url: 5.0.0
@@ -977,16 +972,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-TwWAOZb0j7e9eGaf9esRx3ZcLaE5tQ2lvYy1pb5IAaG1a2e2Kv5Lms1Y4hpj+ciXJRofIxxlt5haeQ/2ANeE0Q==
-  /node/17.4.0:
-    dependencies:
-      node-bin-setup: 1.1.0
-    dev: false
-    engines:
-      npm: '>=5.0.0'
-    hasBin: true
-    requiresBuild: true
-    resolution:
-      integrity: sha512-/kPlbyQjDJa9NEOPmKSTmHOxgq+7wAMWNdU+8B9cXseQXTaF3xYAiYc9dCh3fDUxnrLR/DIqiYEQ85ICqSya8A==
   /nopt/3.0.6:
     dependencies:
       abbrev: 1.1.1
@@ -1596,6 +1581,5 @@ specifiers:
   date: ^1.0.2
   express: ^4.17.2
   jsonwebtoken: ^8.5.1
-  node: ^17.4.0
   sqlite: ^4.0.23
   sqlite3: ^5.0.2
